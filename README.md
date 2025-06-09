@@ -1,50 +1,68 @@
-🌦️ Weather Forecast App
-This Weather Forecast App is a Python-based desktop application that provides real-time weather updates for any city entered by the user. It utilizes the OpenWeatherMap API to fetch current weather data and displays it in a clean, modern graphical user interface built using Tkinter and styled with ttkbootstrap.
+# 🌦️ Weather Forecast App
 
-🚀 Features
-Real-Time Weather Updates: Retrieves temperature, weather description, country, and city details.
+A Python-based desktop application that provides **real-time weather updates** for any city entered by the user. It utilizes the **OpenWeatherMap API** to fetch live weather data and displays it through a clean graphical interface built using **Tkinter** and styled with **ttkbootstrap**.
 
-Live Weather Icons: Displays corresponding weather icons using image URLs from OpenWeatherMap.
+---
 
-User-Friendly Interface: Built with Tkinter and styled using ttkbootstrap’s modern themes for a polished look.
+## 🚀 Features
 
-Input Validation: Alerts the user with a popup message if the entered city is not found.
+- **Real-Time Weather Updates**  
+  Retrieves temperature, weather description, country, and city details.
 
-🛠️ Technologies Used
-Python
+- **Live Weather Icons**  
+  Displays corresponding weather icons using image URLs from OpenWeatherMap.
 
-Tkinter & ttkbootstrap (for GUI)
+- **User-Friendly Interface**  
+  Built with Tkinter and styled using ttkbootstrap’s modern themes for a polished look.
 
-OpenWeatherMap API (for weather data)
+- **Input Validation**  
+  Alerts the user with a popup message if the entered city is not found.
 
-Pillow (PIL) (for image handling)
+---
 
-Requests (for API calls)
+## 🛠️ Technologies Used
 
-📦 How It Works
-The user enters a city name in the input field.
+- Python  
+- Tkinter & ttkbootstrap (for GUI)  
+- OpenWeatherMap API (for weather data)  
+- Pillow (PIL) (for image handling)  
+- Requests (for API calls)
 
-On clicking the Search button, the app sends a request to the OpenWeatherMap API.
+---
 
-If the city is valid, the app displays:
+## 📦 How It Works
 
-City and country name
+1. The user enters a city name in the input field.
+2. On clicking the **Search** button, the app sends a request to the OpenWeatherMap API.
+3. If the city is valid, the app displays:
+   - ✅ City and country name  
+   - 🌡️ Current temperature in Celsius  
+   - 🌤️ Weather description  
+   - 🖼️ Weather icon
+4. If the city is not found, an error popup is shown.
 
-Current temperature in Celsius
+---
 
-Weather description
+## 📸 UI Preview
 
-Weather icon
+*(Add a screenshot here, e.g., app UI)*  
+`![Weather App Screenshot](screenshot.png)`
 
-If the city is not found, an error popup is shown.
+---
 
-📌 Setup Instructions
+## 📌 Setup Instructions
 
-1.Clone the repository:
+### 🔁 Clone the Repository
+
 git clone https://github.com/your-username/weather-forecast-app.git
 
-2.Install required libraries:
+📦 Install Required Libraries
 pip install requests pillow ttkbootstrap
 
-3.Run the application:
+▶️ Run the Application
 python weather_app.py
+
+🔑 Note: Make sure to replace the API key in the script with your own key from OpenWeatherMap.
+
+🙌 Contribution
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
